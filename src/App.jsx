@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import About from './pages/About'
 import {Routes,Route,Link} from 'react-router-dom'
 
@@ -14,6 +15,13 @@ const App = () => {
       <Routes>
         <Route path='/about' element={<About/>}/>
       </Routes>
+=======
+import Info from './pages/Info'
+const App = () => {
+  return (
+    <div className='app'>
+      <Info></Info>
+>>>>>>> 54ca1e4f78d1b1a9cb814d7cbb12a83feff83482
     </div>
   )
   
