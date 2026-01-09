@@ -1,7 +1,7 @@
 import { useState } from "react";
 const styles = {
   container: {
-    width: "250px",
+    width: "259px",
     margin: "50px auto",
     padding: "20px",
     border: "2px solid #333",
